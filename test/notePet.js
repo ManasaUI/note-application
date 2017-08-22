@@ -75,7 +75,7 @@ describe('Testing noteAPI', function(){
         })
     });
 
-    it('Test - deleting notes by ID, function(done){
+    it('Test - deleting notes by ID', function(done){
         server
         .delete('/api/notes/'+noteID)
         .expect(204)

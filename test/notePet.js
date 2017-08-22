@@ -49,7 +49,7 @@ describe('Testing noteAPI', function(){
         })
     });
 
-    it('Test - owerwrite notes', function(done){
+    it('Test - owerwrite notes by ID', function(done){
         server
         .put('/api/notes/'+noteID)
         .set('Content-Type', 'application/json')
@@ -60,7 +60,7 @@ describe('Testing noteAPI', function(){
         })
     });
 
-    it('Test - listing notes', function(done){
+    it('Test - listing notes by ID', function(done){
         server
         .get('/api/notes/'+noteID)
         .expect(200)
@@ -75,7 +75,7 @@ describe('Testing noteAPI', function(){
         })
     });
 
-    it('Test - deleting notes', function(done){
+    it('Test - deleting notes by ID, function(done){
         server
         .delete('/api/notes/'+noteID)
         .expect(204)

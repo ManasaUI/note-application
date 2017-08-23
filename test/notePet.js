@@ -13,7 +13,7 @@ describe('Testing noteAPI', function(){
         done();
     });
 
-    it('Testing - home page', function(done){
+    it('Testing - HOme page', function(done){
         server
         .get('/')
         .end(function(err, res){

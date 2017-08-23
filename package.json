@@ -9,8 +9,10 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "*",
+    "mocha": "^3.5.0",
     "mongoose": "*",
-    "morgan": "^1.8.2"
+    "morgan": "^1.8.2",
+    "should": "^11.2.1"
   },
   "author": "manasa",
   "license": "ISC"

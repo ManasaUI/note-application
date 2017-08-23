@@ -1,7 +1,6 @@
 language: node_js
 node_js: 6.9.4
-before_install: npm install -g mocha
-before_install: npm install -g should
+before_install: npm install -g mocha should
 notifications:
   email:
     - mxe12610@gmail.com
